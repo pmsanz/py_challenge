@@ -1,8 +1,6 @@
 # py_challenge
 Interview Challenge Repository in Python
 
-# Validator
-
 API Rest to get dataset information. By request filters.
 
 **Only for testing propouse**
@@ -82,12 +80,12 @@ When you gives to API, one CORRECT POST. Returns an JSON with next parameters:
 ```		
 When you gives to API, one WRONG POST. Returns an JSON with next parameters:
 
-
+```json
 {
     "message": "Please enter valid parameters",
     "status": "error"
 }
-
+```
 <a name="Developer"></a>
 ## Developed by
 Pablo Matias Sanz : https://www.linkedin.com/in/pablo-sanz-67907056/
